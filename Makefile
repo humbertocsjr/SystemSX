@@ -6,3 +6,4 @@ all clean distro:
 	@sh ./configure
 	@$(MAKEDIR) devkit
 	@$(MAKEDIR) boot
+	@$(MAKEDIR) output

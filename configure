@@ -4,3 +4,4 @@ echo "MAKEDIR=make --no-print-directory \$@ -C" > conf.mk
 echo "MAKE=make --no-print-directory" >> conf.mk
 echo "AS=`pwd`/devkit/bin/zasm  --reqcolon -v0" >> conf.mk
 echo "PICOFS=`pwd`/devkit/bin/picofs" >> conf.mk
+echo "BOOT_FLOPPY=`pwd`/boot/floppy.boot" >> conf.mk
