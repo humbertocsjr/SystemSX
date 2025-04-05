@@ -10,4 +10,5 @@ bin/zasm: zasm/zasm
 	@chmod +x $@
 
 bin/picofs: bin picofs/picofs.c picofs/picofs.h common.c common.h version.h
+	@echo [CC] devkit/$@
 	@cc -o $@ picofs/picofs.c common.c

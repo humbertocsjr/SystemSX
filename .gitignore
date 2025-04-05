@@ -1,5 +1,6 @@
 *.o
 *.boot
 *.lst
+*.img
 /conf.mk
 /devkit/bin/*

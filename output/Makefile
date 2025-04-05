@@ -10,4 +10,5 @@ clean:
 	@rm -f *.img
 
 %.img: $(BOOT_FLOPPY)
+	@echo [PICOFS] $@
 	@$(PICOFS) $@ genfs $(patsubst %.img,%,$@) "SystemSX" $(BOOT_FLOPPY)
